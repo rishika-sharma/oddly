@@ -38,6 +38,7 @@ function draw() {
   fill(rgb(randomNumber(0, 255), randomNumber(0, 255), randomNumber(0, 255)));
   stroke(rgb(randomNumber(0, 255), randomNumber(0, 255), randomNumber(0, 255)));
   ellipse(World.mouseX, World.mouseY, randomNumber(0, 300));
+  showMobileControls(false, false, false, false);
 }
 
 // -----
